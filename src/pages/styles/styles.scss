@@ -45,7 +45,7 @@ body {
   border-radius: 50%;
   font-size: $TEXTSize;
   padding: 5px;
-  width: 77px;
+  // width: 77px;
   background-color: transparent;
   transition: background-color $TransitionS ease, color $TransitionS ease, border $TransitionS ease;
   cursor: pointer;
@@ -107,7 +107,7 @@ body {
   body {
     font-size: calc($TEXTSize * .75);
   }
-  .btn {
-    width: 42px;
-  }
+  // .btn {
+  //   width: 42px;
+  // }
 }
