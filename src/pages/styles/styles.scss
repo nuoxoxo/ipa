@@ -1,6 +1,7 @@
 $BG: #000000;
 $TEXTColor: #ffffff;
 $TEXTSize: 21px;
+$TEXTSize2: 42px;
 $FONT: 'Courier New', Courier, monospace;
 
 $TransitionS: .2s;
@@ -79,6 +80,8 @@ body {
   }
   button {
     align-self:flex-end;
+    height: $TEXTSize2;
+    width: $TEXTSize2;
     margin: 2% 1% 2% 3%;
   }
   .older-fact-R {
@@ -106,5 +109,9 @@ body {
   body {
     font-size: calc($TEXTSize * .75);
   }
-
+  .container {
+    button {
+      align-self:center;
+    }
+  }
 }
